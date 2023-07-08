@@ -1,0 +1,165 @@
+body{
+    margin: 0px;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 200;
+}
+
+#hero {
+    height: 500px;
+    background-image: url("images/chanchamayo.jpg");
+    background-size: cover;
+    background-position: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #F1FAEE;
+}
+
+#heading{
+    background: #1D3557;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 30pt;
+    text-shadow: 2px 3px 2px black;
+}
+
+.effect{
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+    border-bottom: 2px solid #F1FAEE;
+}
+
+#subheading{
+    max-width: 400px;
+    background: #457B9D;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-weight: 100;
+    text-shadow: 1px 3px 2px black;
+}
+
+#history-section {
+    background-color: #F1FAEE;
+    padding: 50px 0 30px 0;
+    display: block;
+    text-align: center;
+    color: #1D3557;
+}
+
+#card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 0 50px 0 50px;
+}
+
+.card-title{
+    width: 200px;
+}
+
+.card-par{
+    width: 200px;
+}
+
+.read-more-btn{
+    border: 3px solid #1D3557;
+    padding: 8px 10px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 14pt;
+    background: none;
+    margin-top: 25px;
+}
+
+.read-more-btn:hover{
+    background: #1D3557;
+    color: #F1FAEE;
+}
+
+.card-img{
+    min-width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#history-img-1 {
+    background-image: url("images/Catedral.jpg");
+}
+
+#history-img-2 {
+    background-image: url("images/flag.jpg");
+}
+
+#history-img-3 {
+    background-image: url("images/chanchamayo.jpg");
+}
+
+#activities-section {
+    padding: 50px 0 50px 0;
+    text-align: center;
+    background-color: #457B9D;
+    background-size: cover;
+    color: #F1FAEE;
+    text-shadow: 0 0 1px black;
+}
+
+#activities-img-1{
+    background-image: url("images/activitie1.jpg");
+}
+
+#activities-img-2{
+    background-image: url("images/activitie2.jpg");
+}
+
+#activities-img-3{
+    background-image: url("images/activitie3.jpg");
+}
+
+#guide-section{
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#guide-card {
+    width: 400px;
+    background-color: #A8DADC;
+    display: flex;
+    padding: 23px 13px;
+    border-radius: 10px;
+    box-shadow: 0px 5px black;
+}
+
+#guide-img{
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.guide-text {
+    width: 200px;
+    margin: 0 auto;
+    color: #1D3557;
+}
+
+#guide-p {
+    font-style: italic;
+}
+
+#footer {
+    background-color: black;
+    color: #F1FAEE;
+    text-align: center;
+    padding: 12px 0;
+}
