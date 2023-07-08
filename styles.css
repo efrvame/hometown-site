@@ -157,6 +157,13 @@ body{
     font-style: italic;
 }
 
+#map {
+    border-radius: 10px;
+    height: 290px;
+    box-shadow: 0 5px black;
+    margin-left: 20px;
+}
+
 #footer {
     background-color: black;
     color: #F1FAEE;
