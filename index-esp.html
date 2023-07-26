@@ -9,115 +9,131 @@
         <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Visita Chanchamayo</title>
 
     </head>
     <body>
-        <div id="nav">
-            <a class="link selected" href="index-esp.html">
-                ESP
-                <img class="icon" src="images/PE-flag.png">
-            </a>
-            |
-            <a class="link" href="index.html">
-                ENG
-                <img class="icon" src="images/US-flag.png">
-            </a>
-        </div>
+        <header>
+            <nav>
+                <a class="link selected" href="index-esp.html">
+                    ESP
+                    <img class="icon" src="images/PE-flag.png">
+                </a>
+                |
+                <a class="link" href="index.html">
+                    ENG
+                    <img class="icon" src="images/US-flag.png">
+                </a>
+            </nav>
+        </header>
         
-        <div id="hero">
-            <h1 id="heading">Visita <span class="effect">Chanchamayo</span>☕️</h1>
-            <h2 id="subheading">La capital cafetalera del Perú</h2>
-        </div>
+        <main>
+            <section class="hero-section">
+                <div class="container">
+                    <h1>Visita <span class="effect">Chanchamayo</span>☕️</h1>
+                    <h2>La capital cafetalera del Perú</h2>
+                </div>
+            </section>
         
-        <div id="history-section">
-            <h2>Nuestra historia</h2>
-            <div id="card-container">
-                <div class="card">
-                    <span class="card-img" id="history-img-1"></span>
-                    <h3 class="card-title">La colonización</h3>
-                    <p class="card-par">
-                        La colonización de esta región fue iniciada por los misioneros,
-                        que ingresaron por el norte a este valle en el siglo XVII.
-                    </p>
-                    <button class="read-more-btn">Leer más</button>
+            <section class="history-section">
+                <div class="container">
+                    <h2>Nuestra historia</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <span class="card-img" id="history-img-1"></span>
+                            <h3 class="card-title">La colonización</h3>
+                            <p class="card-par">
+                                La colonización de esta región fue iniciada por los misioneros,
+                                que ingresaron por el norte a este valle en el siglo XVII.
+                            </p>
+                            <a class="btn">Leer más</a>
+                        </div>
+
+                        <div class="card">
+                            <span class="card-img" id="history-img-2"></span>
+                            <h3 class="card-title">Geografía</h3>
+                            <p class="card-par">
+                                El distrito de Chanchamayo es uno de los seis que conforman
+                                la provincia, en la región Junín en el centro del Perú.
+                            </p> 
+                            <a class="btn">Leer más</a>
+                        </div>
+
+                        <div class="card">
+                            <span class="card-img" id="history-img-3"></span>
+                            <h3 class="card-title">Actualidad</h3>
+                            <p class="card-par">
+                                Hoy en día la ciudad es conocida por la producción de 
+                                el café más aromático y los cítricos más dulces.
+                            </p>
+                            <a class="btn">Leer más</a>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
-                <div class="card">
-                    <span class="card-img" id="history-img-2"></span>
-                    <h3 class="card-title">Geografía</h3>
-                    <p class="card-par">
-                        El distrito de Chanchamayo es uno de los seis que conforman
-                        la provincia, en la región Junín en el centro del Perú.
-                    </p> 
-                    <button class="read-more-btn">Leer más</button>
+            <section class="activities-section">
+                <div class="container">
+                    <h2>Top 3 de actividades para hacer en Chanchamayo</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <span class="card-img" id="activities-img-1"></span>
+                            <h3 class="card-title">Cataratas</h3>
+                            <p class="card-par">
+                                El distrito se caracteriza por tener una gran cantidad
+                                de cataratas con aguas limpias, frescas y cristalinas.
+                            </p>
+                        </div>
+
+                        <div class="card">
+                            <span class="card-img" id="activities-img-2"></span>
+                            <h3 class="card-title">Visita a comunidades</h3>
+                            <p class="card-par">
+                                Puedes visitar las pequeñas comunidades de nativos
+                                Asháninkas que ofrecen artesanías y relatos.
+                            </p>
+                        </div>
+
+                        <div class="card">
+                            <span class="card-img" id="activities-img-3"></span>
+                            <h3 class="card-title">Deporte</h3>
+                            <p class="card-par">
+                                Puedes realizar deportes extremos como el canotaje
+                                en los distintos ríos que recorren los alrededores de
+                                la ciudad.
+                            </p>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
-                <div class="card">
-                    <span class="card-img" id="history-img-3"></span>
-                    <h3 class="card-title">Actualidad</h3>
-                    <p class="card-par">
-                        Hoy en día la ciudad es conocida por la producción de 
-                        el café más aromático y los cítricos más dulces.
-                    </p>
-                    <button class="read-more-btn">Leer más</button>
+
+            <section class="guide-section">
+                <div class="container">
+                    <div class="guide-card">
+                        <img class="guide-img" src="images/guide.jpg" alt="">
+                        <div class="guide-text">
+                            <h1>Tu guía</h1>
+                            <p  class="guide-p">
+                                "Nací en esta hermosa ciudad, he tenido
+                                la fortuna de recorrer todos los puntos
+                                turísticos y creeme que no te vas a arrepentir."
+                            </p>
+                            <h3>Danilo Lapa</h3>
+                        </div>
+                    </div>
+
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39197.88719833523!2d-75.35119073015015!3d-11.060366284124562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91097494fbe01775%3A0x31bc1ba217f5a030!2sLa%20Merced!5e1!3m2!1sen!2spe!4v1688777290135!5m2!1sen!2spe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-            </div>
-        </div>
+            </section>
+            
+        </main>
 
-        <div id="activities-section">
-            <h2>Top 3 de actividades para hacer en Chanchamayo</h2>
-            <div id="card-container">
-                <div class="card">
-                    <span class="card-img" id="activities-img-1"></span>
-                    <h3 class="card-title">Cataratas</h3>
-                    <p class="card-par">
-                        El distrito se caracteriza por tener una gran cantidad
-                        de cataratas con aguas limpias, frescas y cristalinas.
-                    </p>
-                </div>
-
-                <div class="card">
-                    <span class="card-img" id="activities-img-2"></span>
-                    <h3 class="card-title">Visita a comunidades</h3>
-                    <p class="card-par">
-                        Puedes visitar las pequeñas comunidades de nativos
-                        Asháninkas que ofrecen artesanías y relatos.
-                    </p>
-                </div>
-
-                <div class="card">
-                    <span class="card-img" id="activities-img-3"></span>
-                    <h3 class="card-title">Deporte</h3>
-                    <p class="card-par">
-                        Puedes realizar deportes extremos como el canotaje
-                        en los distintos ríos que recorren los alrededores de
-                        la ciudad.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div id="guide-section">
-            <div id="guide-card">
-                <img id="guide-img" src="images/guide.jpg" alt="">
-                <div class="guide-text">
-                    <h1>Tu guía</h1>
-                    <p id="guide-p">
-                        "Nací en esta hermosa ciudad, he tenido
-                        la fortuna de recorrer todos los puntos
-                        turísticos y creeme que no te vas a arrepentir."
-                    </p>
-                    <h3>Danilo Lapa</h3>
-                </div>
-            </div>
-
-            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39197.88719833523!2d-75.35119073015015!3d-11.060366284124562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91097494fbe01775%3A0x31bc1ba217f5a030!2sLa%20Merced!5e1!3m2!1sen!2spe!4v1688777290135!5m2!1sen!2spe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-        <div id="footer">
-            <span>© Creado por efrvame</span>
-        </div>
+        <footer>
+            <span>© Created by efrvame</span>
+        </footer>
 
     </body>
 </html>
