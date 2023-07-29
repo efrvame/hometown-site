@@ -72,12 +72,12 @@ h1, h2, h3, p {
     font-size: 14pt;
     background: none;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.read-more-btn:hover{
+.btn:hover, .btn:focus{
     background: #1D3557;
     color: #F1FAEE;
-    cursor: pointer;
 }
 
 /* Layout */
